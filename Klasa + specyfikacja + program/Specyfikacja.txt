@@ -1,0 +1,25 @@
+Nazwa klasy: BouncingBall
+
+Pola:
+private int X - jedna ze wspó³rzêdnych po³o¿enia pocz¹tkowego
+private int Y - druga ze wspó³rzêdnych po³o¿enia pocz¹tkowego
+private int radius - promieñ pi³ki
+private Color color - kolor pi³ki
+private int dx - prêdkoœæ pi³ki w p³aszczyŸnie X
+private int dy - prêdkoœæ pi³ki w p³aszczyŸnie Y
+private boolean is
+
+Konstruktor:
+public BouncingBall(int X, int Y, int radius, int velocity, int R, int G, int B)
+R, G i B to liczby okreœlaj¹ce zawartoœæ czerwonego, zielonego i niebieskiego w kolorze pi³ki
+
+Metody:
+public void letsBounce() - metoda rozpoczynaj¹ca ruch i odbijanie siê pi³ki
+public void paintComponent(Graphics g) - metoda potrzebna do "malowania" po ekranie
+public void setRadius(int radius) - ustawia promieñ pi³ki
+public void setColor(int r, int g, int b) - ustawia kolor pi³ki
+public void setVelocity(int dx, int dy) - ustawia prêdkoœæ pi³ki
+public Color getColor() - zwraca kolor pi³ki
+public int getRadius() - zwraca promieñ pi³ki
+public int getXSpeed() - zwraca prêdkoœæ pi³ki w p³aszczyŸnie X
+public int getYSpeed() - zwraca prêdkoœæ pi³ki w p³aszczyŸnie Y
